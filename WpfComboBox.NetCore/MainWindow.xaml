@@ -6,9 +6,10 @@
         xmlns:local="clr-namespace:WpfComboBox.NetCore"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
-        Language="en">
+        Language="de">
     <StackPanel>
         <ComboBox SelectedItem="{Binding SelectedValue}" ItemsSource="{Binding Values}" IsEditable="True" />
+        <ComboBox Text="{Binding SelectedText}" SelectedItem="{Binding SelectedValue}" ItemsSource="{Binding Values}" IsEditable="True" />
         <TextBox Text="{Binding SelectedValue}" />
     </StackPanel>
 </Window>

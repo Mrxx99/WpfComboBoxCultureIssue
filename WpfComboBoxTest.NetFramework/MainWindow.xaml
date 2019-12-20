@@ -8,6 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
         <ComboBox SelectedItem="{Binding SelectedValue}" ItemsSource="{Binding Values}" IsEditable="True" />
+        <ComboBox Text="{Binding SelectedText}" SelectedItem="{Binding SelectedValue}" ItemsSource="{Binding Values}" IsEditable="True" />
         <TextBox Text="{Binding SelectedValue}" />
     </StackPanel>
 </Window>

@@ -10,6 +10,8 @@ namespace WpfComboBox.NetCore
 
         public double SelectedValue { get; set; }
 
+        public double SelectedText { get; set; }
+
         public MainViewModel()
         {
             //Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-EN");
