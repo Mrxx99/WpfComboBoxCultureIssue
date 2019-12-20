@@ -17,8 +17,8 @@ namespace WpfComboBoxTest.NetFramework
 
         public MainViewModel()
         {
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-EN");
-            CultureInfo.CurrentUICulture = new CultureInfo("en-EN");
+            //Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-EN");
+            //CultureInfo.CurrentUICulture = new CultureInfo("en-EN");
         }
     }
 }
